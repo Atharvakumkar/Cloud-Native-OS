@@ -1,0 +1,38 @@
+name: Build MyOS
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install build tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential nasm grub-pc-bin
+
+      - name: Build kernel
+        run: |
+          cd kernel
+          make clean
+          make
+
+      - name: Package ISO
+        run: |
+          cp kernel/kernel.bin iso/boot/kernel.bin
+          grub-mkrescue -o myos.iso iso/
+
+      - name: Upload ISO artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: myos-iso
+          path: myos.iso
+
