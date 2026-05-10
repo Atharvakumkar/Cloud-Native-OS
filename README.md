@@ -1,4 +1,4 @@
-# MyOS
+#Cloud Native OS
 
 A minimal custom operating system built from scratch using C, x86 Assembly, BusyBox, GRUB, Docker, GitHub Actions, and AWS EC2.
 This project was built to understand how operating systems work at a low level — from bootloaders and kernels to Linux userland environments and cloud deployment.
