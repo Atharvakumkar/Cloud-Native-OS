@@ -37,25 +37,7 @@ This project was built to understand how operating systems work at a low level �
 
 ---
 
-# Project Structure
-
-```bash
-myOS/
-├── boot/
-├── kernel/
-├── userland/
-├── initramfs/
-├── iso/
-├── grub/
-├── scripts/
-├── Dockerfile
-├── Makefile
-└── README.md
-```
-
----
-
-# Run Using Docker (Recommended)
+# Run Using Docker
 
 This is the easiest way to run the operating system without manually installing dependencies.
 
