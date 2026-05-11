@@ -182,6 +182,46 @@ Feel free to fork the repository and experiment with the OS!
 
 ---
 
+# Disclaimer of Warranty and Liability
+
+This operating system, **Cloud-Native Hybrid Operating System**, was developed with the assistance of AI tools including ChatGPT and Claude.
+
+---
+
+## As-Is Basis
+
+This software is provided **"as is"**, without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+---
+
+## Limitation of Liability
+
+The author shall not be held liable for any claims, damages, or other liabilities arising from the use, misuse, or inability to use this software, whether in an action of contract, tort, or otherwise.
+
+---
+
+## AI-Generated Components
+
+Certain portions of the source code, scripts, configurations, and documentation were generated or assisted by AI systems.
+
+Although efforts have been made to review, test, and validate the generated content, users are strongly advised to independently verify functionality, security, and reliability before production use.
+
+---
+
+## Copyright Notice
+
+Under current legal interpretations, portions of content generated solely by AI may not qualify for copyright protection in some jurisdictions, including the United States.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
+
+You may replace this with another license if required.
+
+---
+
 # Author
 
 Atharva Kumkar
